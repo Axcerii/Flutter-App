@@ -2,15 +2,21 @@
 
 Projet de test pour les B3 de MyDigitalSchool
 
-## Getting Started
+## Commencer et installer le projet
 
-This project is a starting point for a Flutter application.
+Entrer dans le terminal : 
 
-A few resources to get you started if this is your first Flutter project:
+- flutter pub get
+
+Puis une fois les dépendances installées :
+
+- flutter run
+
+Ce projet permet de présenter l'usage d'API, la création de formulaire et une logique MVC appliquée à Flutter
+
+Voici les ressources officielles données pour développer en Flutter
 
 - [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- [online documentation](https://docs.flutter.dev/)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.

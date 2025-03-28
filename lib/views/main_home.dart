@@ -1,26 +1,20 @@
 import 'package:flutter/material.dart';
-import 'package:b3_dev/views/drawer.dart';
+import 'package:b3_dev/views/layout.dart';
 
+
+//Main page, il s'agit juste du squelette de base du projet
 class MainHome extends StatelessWidget {
+
   const MainHome({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        leading: Builder(
-      builder: (context) {
-        return IconButton(
-          icon: const Icon(Icons.menu),
-          onPressed: () {
-            Scaffold.of(context).openDrawer();
-          },
-        );
-      },
-    ),
-        title: const Text('Main Home'),
-      ),
-      drawer: const MyDrawer(),
+    //On appelle le layout (barre de navigation + le menu déroulant) ->views/layout.dart
+    return const Layout(
+      title: "Accueil",
+      child: Column(children: [
+        Text('Ma super page home'),
+      ]) 
     );
   }
 }
